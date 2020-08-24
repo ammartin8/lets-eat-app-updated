@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Title: Let's Eat Application
 
-## Available Scripts
+***
 
-In the project directory, you can run:
+> Author: Amah Martin
+>
+> Last Updated: 8-24-2020
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Project Summary
+* Technical Summary
+* Features
+* Milestones
+* Requirements to Run the Application
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Project Summary
 
-### `npm test`
+This is a React application that will allow users to search for resturants by various criteria such as city, type of restaurant and more.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technical Summary
 
-### `npm run build`
+The following technologies are used to build this application:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React JS
+  * This project was bootstrapped with [Create React App](https://github.com/facebook/create*react*app).
+* Node JS
+* Yelp API
+  * Background:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Core Features will include the following\:
+    1. User will have the ability to type in any city in the search bar and see list of restaurants available based on user's input.
+    2. User will have the ability to click on a restaurant and see additional details about the selected restaurant
+    3. User will have the ability to filter list of results by restaurant type (establishment), cuisine type, restaurant category (ex. Nightlife)
 
-### `npm run eject`
+* Additional Features based upon time\:
+    1. User will have the ability to type in any city location in the search bar and have the option to see a map of where restaurants are located in selected city 
+    2. User will have the ability to filter results in map mode.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Milestones
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fetch data from Yelp API using the Node JS (Week 4)
+2. Create a function that will display list of restaurants based on user's input (City Name/State/Country and type of cuisine) on click.
+3. Render data in the DOM (Week 5)
+4. Create a function that will filter results based on user input (Week 6)
+5. Work on styling, UX and UI (Week 7)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Requirements to Run Application
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* Make a pull request or download the files from the GitHub repository.
+* You will need to request an API Key to run application on your local machine. Go to enter website name.
+* Add key to server side of application.
+* Be sure to have npm or yarn install on your computer.
+  * Once installed\:
+    * Open your terminal
+    * Change directory or cd into the lets-eat-app folder.
+    * If you do not already have the following dependency packages installed, type:
+    * `npm start` to start the application.
